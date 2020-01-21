@@ -10,6 +10,11 @@ class Api::V1::ListsController < ApplicationController
         render json: list, except: [:created_at, :updated_at]
     end 
 
+    def destroy
+        List.destroy(params[:id])
+        # render json: list, except: [:created_at, :updated_at]
+    end 
+
 end
 
   def list_params
