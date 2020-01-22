@@ -17,10 +17,10 @@ ActiveRecord::Schema.define(version: 2020_01_21_163543) do
 
   create_table "items", force: :cascade do |t|
     t.integer "listId"
-    t.string "title"
-    t.string "imageUrl"
-    t.integer "year"
-    t.integer "rank"
+    t.string "Title"
+    t.string "Poster"
+    t.integer "Year"
+    t.integer "Rank"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
