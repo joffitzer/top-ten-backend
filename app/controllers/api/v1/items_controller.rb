@@ -13,5 +13,5 @@ end
 
 def item_params
 # whitelist params
-params.permit(:listId, :title, :imageUrl, :year, :rank, :id)
+params.permit(:listId, :Title, :Poster, :Year, :Rank, :id)
 end
