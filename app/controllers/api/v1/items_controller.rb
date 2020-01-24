@@ -9,6 +9,18 @@ class Api::V1::ItemsController < ApplicationController
         render json: item, except: [:created_at, :updated_at]
     end 
 
+    def update
+        item = Item.find(params[:id])
+        item.update(item_params)
+        render json: item, except: [:created_at, :updated_at]
+    end 
+
+    def destroy
+        Item.destroy(params[:id])
+        # render json: list, except: [:created_at, :updated_at]
+    end 
+
+
 end
 
 def item_params
