@@ -5,7 +5,7 @@ class Api::V1::ItemsController < ApplicationController
     end 
 
     def create 
-        item = Item.create!(item_params)
+        item = Item.create(listId: params[:listId], Title: params[:Title], Poster: params[:Poster], Year: params[:Year], Rank: params[:Rank])
         render json: item, except: [:created_at, :updated_at]
     end 
 
@@ -25,5 +25,5 @@ end
 
 def item_params
 # whitelist params
-params.permit(:listId, :Title, :Poster, :Year, :Rank, :id)
+params.require(:item).permit(:listId, :Title, :Poster, :Year, :Rank)
 end

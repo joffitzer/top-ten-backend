@@ -6,6 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Profile.create(name: "Tom Smith", username: "bigtomsmith", imageUrl:"https://sharpemusic.com/wp-content/uploads/2013/06/BIG-TOM-LONESOME-AT-YOUR-TABLE1.jpg")
-# Profile.create(name: "Barack Obama", username: "barryo", imageUrl: "https://i.insider.com/583f290eba6eb619268b6990?width=600&format=jpeg&auto=webp")
+Profile.create(name: "Tom Smith", username: "bigtomsmith", imageUrl:"https://sharpemusic.com/wp-content/uploads/2013/06/BIG-TOM-LONESOME-AT-YOUR-TABLE1.jpg")
+Profile.create(name: "Barack Obama", username: "barryo", imageUrl: "https://i.insider.com/583f290eba6eb619268b6990?width=600&format=jpeg&auto=webp")
 

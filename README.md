@@ -1,24 +1,17 @@
-# README
+## ListMaker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+With decade-end lists flooding our inboxes and news feeds, I decided to make this web application, which allows users to easily create lists of their favorite movies (and eventually, other categories as well).
+<br />
 
-Things you may want to cover:
+### Demo
 
-* Ruby version
+To view a full walkthrough of this app's functionality, please watch [this video demo](https://youtu.be/V23n347YBQY).
 
-* System dependencies
+### Technologies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ReactJS Frontend<br />
+Rails Backend<br />
+OMDB API<br />
+React Router<br />
+Bootstrap<br />
+Custom CSS<br />
