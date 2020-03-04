@@ -9,7 +9,7 @@ To view a full walkthrough of this app's functionality, please watch [this video
 
 ### Technologies
 
-ReactJS Frontend<br />
+ReactJS Frontend - [link to repository](https://github.com/joffitzer/top-ten-frontend)<br />
 Rails Backend<br />
 OMDB API<br />
 React Router<br />
